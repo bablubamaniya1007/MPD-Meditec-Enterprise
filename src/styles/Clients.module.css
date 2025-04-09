@@ -1,0 +1,31 @@
+.slider {
+    overflow: hidden;
+    width: 60%;
+    background: #f8f8f8;
+    padding: 20px 0;
+    cursor: grab;
+  }
+  
+  .slidertrack {
+    display: flex;
+    width: max-content;
+  }
+  
+  .slide {
+    width: 100px;
+    height: 57px;
+    overflow: hidden;
+   
+  }
+  
+  .slide img {
+    width: 100%;
+    
+    object-fit: contain;
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

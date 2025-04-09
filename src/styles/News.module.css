@@ -1,0 +1,40 @@
+.news{
+    background-color: #64a113;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem;
+}
+/* .khali{
+    
+} */
+.head{
+    font-size: large;
+    color: #ffffff;
+    margin: 20px 0px 0px 0px;
+}
+.containt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.date{
+    font-size: 16px;
+    margin-top: 2rem;
+    color: #ff4122;
+    margin: 3px 0px 0px ;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-weight: 500;
+    background-color: aliceblue;
+    padding: 0.5rem;
+}
+.containt a{
+color: #ffffff;
+font-size: 13px;
+}
+.partner{
+    color: #ffffff;
+}
