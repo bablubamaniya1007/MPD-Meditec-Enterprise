@@ -1,9 +1,17 @@
 import React from 'react'
+import SideBar from '../components/SideBar'
+import Main from '../components/Main'
 
-function About() {
+import style from '../styles/AboutMPD.module.css'
+function AboutMPD() {
   return (
-    <div>About</div>
+    <div className={style.AboutMPD}>
+      {/* <Logo /> */}
+     
+      <SideBar />
+      <Main />
+    </div>
   )
 }
 
-export default About
+export default AboutMPD

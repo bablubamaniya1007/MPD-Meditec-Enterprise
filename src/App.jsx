@@ -1,29 +1,27 @@
 
-import Home from './pages/Home';
-import './App.css'
-import NavBar from './components/NavBar';
-import Photos from './components/Photos';
-import MPDNote from './components/MPDNote';
-import News from './components/News';
-import Clients from './components/Clients';
-import Footer from './components/Footer';
+import "./App.css";
+import Logo from "./components/Logo";
+// import AboutMPD from "./pages/AboutMPD";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Team from "./pages/Team";
+// import HomePage from "./pages/HomePage";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className = 'main-container'>
-      <Home/>
-      <NavBar/>
-      <Photos />
-      <MPDNote />
-      <News />
-      <Clients />
+      <div className="main-container">
+        <Logo/>
+         <NavBar />
+        {/* <HomePage /> */}
+      {/* <AboutMPD /> */}
+      <Team />
       <Footer />
-    </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

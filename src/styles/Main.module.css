@@ -1,0 +1,48 @@
+.main{
+    padding: 0rem 2rem 2rem 2rem;
+    padding-right: 7rem;
+    width: 75%;
+}
+.mainH {
+  color: #009900;
+  font-size: xx-large;
+  border-bottom: 2px solid #009900;
+  margin-top: 1rem;
+}
+.spanHeadin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pera{
+    padding: 1rem;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-size: small;
+}
+.list {
+  list-style-type: disc;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+.list li{
+    padding-bottom: 0.5rem;
+    font-size: small;
+}
+h6{
+    margin-bottom: 1rem;
+}
+.baner{
+    height: 7rem;
+    width: 100%;
+}
+.top{
+    color: #990000;
+    font-weight: 500;
+    margin: 1rem;
+}

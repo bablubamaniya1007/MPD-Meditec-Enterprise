@@ -6,7 +6,7 @@ import { IoHomeSharp } from "react-icons/io5";
 function NavBar() {
   return (
     <div className={style.NavBar}>
-  <ul>
+  <ul className={style.navbarlist}>
     <li className={style.home}><IoHomeSharp /></li>
     <li>About Us</li>
     <li>Products</li>
