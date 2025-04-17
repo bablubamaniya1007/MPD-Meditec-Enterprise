@@ -1,0 +1,27 @@
+.OprationTheater{
+    width: 75%;
+    padding-right: 5rem;
+}
+.heading{
+    color: #009900;
+    font-size: xx-large;
+    border-bottom: 2px solid #009900;
+    margin-top: 5rem;
+}
+.imageContainer{
+    display: grid;
+    /* grid-template-rows:repeat(1fr,1fr,1fr); */
+    grid-template-columns:repeat(3,auto);
+    /* align-items: center;
+    justify-content: center; */
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
