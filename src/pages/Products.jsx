@@ -4,6 +4,7 @@ import SideBarp from '../components/SideBarp'
 import OprationTheater from '../components/OprationTheater'
 import AmericanStandard from '../components/AmericanStandard'
 import OprationTheaterLightes from '../components/OprationTheaterLightes'
+import ArchitecturalProduct from '../components/ArchitecturalProduct'
 
 function Products() {
   return (
@@ -11,7 +12,8 @@ function Products() {
       <SideBarp />
       {/* <OprationTheater /> */}
       {/* <AmericanStandard /> */}
-      <OprationTheaterLightes  />
+      {/* <OprationTheaterLightes  /> */}
+      <ArchitecturalProduct />
     </div>
   )
 }
