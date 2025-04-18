@@ -8,6 +8,7 @@ import ArchitecturalProduct from '../components/ArchitecturalProduct'
 import HospitalFurniture from '../components/HospitalFurniture'
 import WallGuard from '../components/WallGuard'
 import CurtainIvTrack from '../components/CurtainIvTrack'
+import IcuCcu from '../components/IcuCcu'
 
 function Products() {
   return (
@@ -19,7 +20,8 @@ function Products() {
       {/* <ArchitecturalProduct /> */}
       {/* <HospitalFurniture /> */}
       {/* <WallGuard /> */}
-      <CurtainIvTrack />
+      {/* <CurtainIvTrack /> */}
+      <IcuCcu />
     </div>
   )
 }
