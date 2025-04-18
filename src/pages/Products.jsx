@@ -7,6 +7,7 @@ import OprationTheaterLightes from '../components/OprationTheaterLightes'
 import ArchitecturalProduct from '../components/ArchitecturalProduct'
 import HospitalFurniture from '../components/HospitalFurniture'
 import WallGuard from '../components/WallGuard'
+import CurtainIvTrack from '../components/CurtainIvTrack'
 
 function Products() {
   return (
@@ -17,7 +18,8 @@ function Products() {
       {/* <OprationTheaterLightes  /> */}
       {/* <ArchitecturalProduct /> */}
       {/* <HospitalFurniture /> */}
-      <WallGuard />
+      {/* <WallGuard /> */}
+      <CurtainIvTrack />
     </div>
   )
 }
