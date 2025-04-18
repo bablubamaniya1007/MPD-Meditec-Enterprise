@@ -6,6 +6,7 @@ import AmericanStandard from '../components/AmericanStandard'
 import OprationTheaterLightes from '../components/OprationTheaterLightes'
 import ArchitecturalProduct from '../components/ArchitecturalProduct'
 import HospitalFurniture from '../components/HospitalFurniture'
+import WallGuard from '../components/WallGuard'
 
 function Products() {
   return (
@@ -15,7 +16,8 @@ function Products() {
       {/* <AmericanStandard /> */}
       {/* <OprationTheaterLightes  /> */}
       {/* <ArchitecturalProduct /> */}
-      <HospitalFurniture />
+      {/* <HospitalFurniture /> */}
+      <WallGuard />
     </div>
   )
 }
