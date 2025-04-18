@@ -1,4 +1,4 @@
-.ArchitecturalProduct{
+.HospitalFurniture{
     width: 75%;
     padding-right: 5rem;
 }
@@ -28,4 +28,9 @@
 .imageContainer span{
     font-size: smaller;
     color: #627E85;
+}
+.image img{
+    width: 16rem;
+    height: 16rem;
+
 }

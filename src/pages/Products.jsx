@@ -5,6 +5,7 @@ import OprationTheater from '../components/OprationTheater'
 import AmericanStandard from '../components/AmericanStandard'
 import OprationTheaterLightes from '../components/OprationTheaterLightes'
 import ArchitecturalProduct from '../components/ArchitecturalProduct'
+import HospitalFurniture from '../components/HospitalFurniture'
 
 function Products() {
   return (
@@ -13,7 +14,8 @@ function Products() {
       {/* <OprationTheater /> */}
       {/* <AmericanStandard /> */}
       {/* <OprationTheaterLightes  /> */}
-      <ArchitecturalProduct />
+      {/* <ArchitecturalProduct /> */}
+      <HospitalFurniture />
     </div>
   )
 }
