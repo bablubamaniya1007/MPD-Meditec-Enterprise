@@ -10,6 +10,7 @@ import WallGuard from '../components/WallGuard'
 import CurtainIvTrack from '../components/CurtainIvTrack'
 import IcuCcu from '../components/IcuCcu'
 import ORIntegrationRecordingSystem from '../components/ORIntegrationRecordingSystem'
+import ControlSystem from '../components/ControlSystem'
 
 function Products() {
   return (
@@ -23,7 +24,8 @@ function Products() {
       {/* <WallGuard /> */}
       {/* <CurtainIvTrack /> */}
       {/* <IcuCcu /> */}
-      <ORIntegrationRecordingSystem />
+      {/* <ORIntegrationRecordingSystem /> */}
+      <ControlSystem />
     </div>
   )
 }
