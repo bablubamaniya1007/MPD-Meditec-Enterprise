@@ -9,6 +9,7 @@ import HospitalFurniture from '../components/HospitalFurniture'
 import WallGuard from '../components/WallGuard'
 import CurtainIvTrack from '../components/CurtainIvTrack'
 import IcuCcu from '../components/IcuCcu'
+import ORIntegrationRecordingSystem from '../components/ORIntegrationRecordingSystem'
 
 function Products() {
   return (
@@ -21,7 +22,8 @@ function Products() {
       {/* <HospitalFurniture /> */}
       {/* <WallGuard /> */}
       {/* <CurtainIvTrack /> */}
-      <IcuCcu />
+      {/* <IcuCcu /> */}
+      <ORIntegrationRecordingSystem />
     </div>
   )
 }

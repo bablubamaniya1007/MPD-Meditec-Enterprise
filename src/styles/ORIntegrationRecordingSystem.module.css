@@ -1,0 +1,36 @@
+.ORIntegrationRecordingSystem{
+    width: 75%;
+    padding-right: 5rem;
+}
+.heading{
+    color: #009900;
+    font-size: xx-large;
+    border-bottom: 2px solid #009900;
+    margin-top: 5rem;
+}
+.imageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    cursor: pointer;
+}
+.imageContainer span{
+    font-size: medium;
+    color: #627E85;
+}
+.image img{
+    width: 20rem;
+    height: 20rem;
+
+}
