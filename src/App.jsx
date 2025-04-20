@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Team from "./pages/Team";
 import Products from "./pages/Products";
+import Clientele from "./pages/Clientele";
 // import HomePage from "./pages/HomePage";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         {/* <HomePage /> */}
       {/* <AboutMPD /> */}
       {/* <Team /> */}
-      <Products />
+      {/* <Products /> */}
+      <Clientele />
       <Footer />
       </div>
     </>

@@ -1,0 +1,7 @@
+.Clientele{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
